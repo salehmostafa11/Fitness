@@ -1,0 +1,1053 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "Your API",
+    "version": "v1"
+  },
+  "paths": {
+    "/Register-Admin": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "FirstName": {
+                    "type": "string"
+                  },
+                  "LastName": {
+                    "type": "string"
+                  },
+                  "UserName": {
+                    "type": "string"
+                  },
+                  "Email": {
+                    "type": "string"
+                  },
+                  "Password": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "FirstName": {
+                  "style": "form"
+                },
+                "LastName": {
+                  "style": "form"
+                },
+                "UserName": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                },
+                "Password": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Register-Trainee": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "FirstName": {
+                    "type": "string"
+                  },
+                  "LastName": {
+                    "type": "string"
+                  },
+                  "UserName": {
+                    "type": "string"
+                  },
+                  "Level": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Age": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Height": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "Weight": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "Gender": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Email": {
+                    "type": "string"
+                  },
+                  "Password": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "FirstName": {
+                  "style": "form"
+                },
+                "LastName": {
+                  "style": "form"
+                },
+                "UserName": {
+                  "style": "form"
+                },
+                "Level": {
+                  "style": "form"
+                },
+                "Age": {
+                  "style": "form"
+                },
+                "Height": {
+                  "style": "form"
+                },
+                "Weight": {
+                  "style": "form"
+                },
+                "Gender": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                },
+                "Password": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Register-Trainer": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "FirstName": {
+                    "type": "string"
+                  },
+                  "LastName": {
+                    "type": "string"
+                  },
+                  "UserName": {
+                    "type": "string"
+                  },
+                  "ExperienceYears": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Email": {
+                    "type": "string"
+                  },
+                  "Password": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "FirstName": {
+                  "style": "form"
+                },
+                "LastName": {
+                  "style": "form"
+                },
+                "UserName": {
+                  "style": "form"
+                },
+                "ExperienceYears": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                },
+                "Password": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Register-Nutritionist": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "FirstName": {
+                    "type": "string"
+                  },
+                  "LastName": {
+                    "type": "string"
+                  },
+                  "UserName": {
+                    "type": "string"
+                  },
+                  "ExperienceYears": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Email": {
+                    "type": "string"
+                  },
+                  "Password": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "FirstName": {
+                  "style": "form"
+                },
+                "LastName": {
+                  "style": "form"
+                },
+                "UserName": {
+                  "style": "form"
+                },
+                "ExperienceYears": {
+                  "style": "form"
+                },
+                "Email": {
+                  "style": "form"
+                },
+                "Password": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Login": {
+      "post": {
+        "tags": [
+          "Auth"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Email": {
+                    "type": "string"
+                  },
+                  "Password": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "Email": {
+                  "style": "form"
+                },
+                "Password": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Nutritionist/Create-Plan": {
+      "post": {
+        "tags": [
+          "Nutritionist"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "Details": {
+                    "type": "string"
+                  },
+                  "MealTypeId": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "TraineeId": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "Details": {
+                  "style": "form"
+                },
+                "MealTypeId": {
+                  "style": "form"
+                },
+                "TraineeId": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Nutritionist/Get-My-Plans": {
+      "get": {
+        "tags": [
+          "Nutritionist"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Nutritionist/Get-By-Id": {
+      "get": {
+        "tags": [
+          "Nutritionist"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Nutritionist/Edit-Plan": {
+      "put": {
+        "tags": [
+          "Nutritionist"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Name": {
+                    "type": "string"
+                  },
+                  "Details": {
+                    "type": "string"
+                  },
+                  "MealTypeId": {
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "Name": {
+                  "style": "form"
+                },
+                "Details": {
+                  "style": "form"
+                },
+                "MealTypeId": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Nutritionist/Delete-Plan": {
+      "put": {
+        "tags": [
+          "Nutritionist"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "id": {
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "id": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Nutritionist/Get-All-Plans-Admin": {
+      "get": {
+        "tags": [
+          "Nutritionist"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Profile/User-Profile": {
+      "get": {
+        "tags": [
+          "Profile"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Profile/UpdateProfile": {
+      "put": {
+        "tags": [
+          "Profile"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "FirstName": {
+                    "type": "string"
+                  },
+                  "LastName": {
+                    "type": "string"
+                  },
+                  "Height": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "Weight": {
+                    "type": "number",
+                    "format": "double"
+                  },
+                  "Gender": {
+                    "$ref": "#/components/schemas/Gender"
+                  }
+                }
+              },
+              "encoding": {
+                "FirstName": {
+                  "style": "form"
+                },
+                "LastName": {
+                  "style": "form"
+                },
+                "Height": {
+                  "style": "form"
+                },
+                "Weight": {
+                  "style": "form"
+                },
+                "Gender": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Profile/ChangePassword": {
+      "put": {
+        "tags": [
+          "Profile"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "CurrentPassword": {
+                    "type": "string"
+                  },
+                  "NewPassword": {
+                    "type": "string"
+                  },
+                  "ConfirmNewPassword": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "CurrentPassword": {
+                  "style": "form"
+                },
+                "NewPassword": {
+                  "style": "form"
+                },
+                "ConfirmNewPassword": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Get-All-Trainees": {
+      "get": {
+        "tags": [
+          "Search"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Get-All-Trainers": {
+      "get": {
+        "tags": [
+          "Search"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Get-All-Nutritionist": {
+      "get": {
+        "tags": [
+          "Search"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Get-By-Name": {
+      "get": {
+        "tags": [
+          "Search"
+        ],
+        "parameters": [
+          {
+            "name": "name",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Get-By-Id": {
+      "get": {
+        "tags": [
+          "Search"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Video/Get-My-Videos": {
+      "get": {
+        "tags": [
+          "Video"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Video/Get-Video-By-Id": {
+      "get": {
+        "tags": [
+          "Video"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Video/Add-Video": {
+      "post": {
+        "tags": [
+          "Video"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "VideoLink": {
+                    "type": "string"
+                  },
+                  "Tilte": {
+                    "type": "string"
+                  },
+                  "Level": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ExerciseTypeId": {
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "VideoLink": {
+                  "style": "form"
+                },
+                "Tilte": {
+                  "style": "form"
+                },
+                "Level": {
+                  "style": "form"
+                },
+                "ExerciseTypeId": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Video/Edit-Video/{id}": {
+      "put": {
+        "tags": [
+          "Video"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "VideoLink": {
+                    "type": "string"
+                  },
+                  "Tilte": {
+                    "type": "string"
+                  },
+                  "Level": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "ExerciseTypeId": {
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "VideoLink": {
+                  "style": "form"
+                },
+                "Tilte": {
+                  "style": "form"
+                },
+                "Level": {
+                  "style": "form"
+                },
+                "ExerciseTypeId": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/Video/Delete-Video/{id}": {
+      "delete": {
+        "tags": [
+          "Video"
+        ],
+        "parameters": [
+          {
+            "name": "id",
+            "in": "path",
+            "required": true,
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/VideoReview/Get-My-Videos-Reviews": {
+      "get": {
+        "tags": [
+          "VideoReview"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/VideoReview/Get-Video-Reviews-By-Id-Login": {
+      "get": {
+        "tags": [
+          "VideoReview"
+        ],
+        "parameters": [
+          {
+            "name": "ReviewId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/VideoReview/Get-Video-Reviews-By-Id-Wihout-Login": {
+      "get": {
+        "tags": [
+          "VideoReview"
+        ],
+        "parameters": [
+          {
+            "name": "ReviewId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/VideoReview/Add-Video-Review": {
+      "post": {
+        "tags": [
+          "VideoReview"
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Review": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Description": {
+                    "type": "string"
+                  },
+                  "VideoId": {
+                    "type": "integer",
+                    "format": "int32"
+                  }
+                }
+              },
+              "encoding": {
+                "Review": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                },
+                "VideoId": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/VideoReview/Edit-Video-Review": {
+      "put": {
+        "tags": [
+          "VideoReview"
+        ],
+        "parameters": [
+          {
+            "name": "videoId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "requestBody": {
+          "content": {
+            "multipart/form-data": {
+              "schema": {
+                "type": "object",
+                "properties": {
+                  "Review": {
+                    "type": "integer",
+                    "format": "int32"
+                  },
+                  "Description": {
+                    "type": "string"
+                  }
+                }
+              },
+              "encoding": {
+                "Review": {
+                  "style": "form"
+                },
+                "Description": {
+                  "style": "form"
+                }
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/api/VideoReview/Delete-Video-Review": {
+      "delete": {
+        "tags": [
+          "VideoReview"
+        ],
+        "parameters": [
+          {
+            "name": "videoId",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "Gender": {
+        "enum": [
+          0,
+          1
+        ],
+        "type": "integer",
+        "format": "int32"
+      }
+    },
+    "securitySchemes": {
+      "Bearer": {
+        "type": "http",
+        "description": "JWT Authorization header using the Bearer scheme.",
+        "scheme": "bearer",
+        "bearerFormat": "JWT"
+      }
+    }
+  },
+  "security": [
+    {
+      "Bearer": [ ]
+    }
+  ]
+}

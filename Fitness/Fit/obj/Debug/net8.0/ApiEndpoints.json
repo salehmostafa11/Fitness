@@ -1,0 +1,669 @@
+[
+  {
+    "ContainingType": "Fit.Controllers.NutritionistController",
+    "Method": "CreatePlan",
+    "RelativePath": "api/Nutritionist/Create-Plan",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Details",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MealTypeId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "TraineeId",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.NutritionistController",
+    "Method": "DeletePlan",
+    "RelativePath": "api/Nutritionist/Delete-Plan",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.NutritionistController",
+    "Method": "EditPlan",
+    "RelativePath": "api/Nutritionist/Edit-Plan",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Details",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "MealTypeId",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.NutritionistController",
+    "Method": "GetAllUserPlans",
+    "RelativePath": "api/Nutritionist/Get-All-Plans-Admin",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.NutritionistController",
+    "Method": "GetPlansById",
+    "RelativePath": "api/Nutritionist/Get-By-Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.NutritionistController",
+    "Method": "GetPlans",
+    "RelativePath": "api/Nutritionist/Get-My-Plans",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.ProfileController",
+    "Method": "ChangePassword",
+    "RelativePath": "api/Profile/ChangePassword",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "CurrentPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NewPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ConfirmNewPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.ProfileController",
+    "Method": "UpdateProfile",
+    "RelativePath": "api/Profile/UpdateProfile",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Height",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Weight",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gender",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.ProfileController",
+    "Method": "GetUserProfile",
+    "RelativePath": "api/Profile/User-Profile",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.VideoController",
+    "Method": "AddVideo",
+    "RelativePath": "api/Video/Add-Video",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VideoLink",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Tilte",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Level",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ExerciseTypeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.VideoController",
+    "Method": "DeleteVideo",
+    "RelativePath": "api/Video/Delete-Video/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.VideoController",
+    "Method": "EditVideo",
+    "RelativePath": "api/Video/Edit-Video/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "VideoLink",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Tilte",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Level",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "ExerciseTypeId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.VideoController",
+    "Method": "GetAllVideos",
+    "RelativePath": "api/Video/Get-My-Videos",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.VideoController",
+    "Method": "GetVideoById",
+    "RelativePath": "api/Video/Get-Video-By-Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.VideoReviewController",
+    "Method": "AddVideoReview",
+    "RelativePath": "api/VideoReview/Add-Video-Review",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Review",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "VideoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.VideoReviewController",
+    "Method": "DeleteVideoReview",
+    "RelativePath": "api/VideoReview/Delete-Video-Review",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.VideoReviewController",
+    "Method": "EditVideoReview",
+    "RelativePath": "api/VideoReview/Edit-Video-Review",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Review",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Description",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "videoId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.VideoReviewController",
+    "Method": "GetMyVideosReviews",
+    "RelativePath": "api/VideoReview/Get-My-Videos-Reviews",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.VideoReviewController",
+    "Method": "GetVideoReviewsByIdWithLogin",
+    "RelativePath": "api/VideoReview/Get-Video-Reviews-By-Id-Login",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReviewId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.VideoReviewController",
+    "Method": "GetVideoReviewsById",
+    "RelativePath": "api/VideoReview/Get-Video-Reviews-By-Id-Wihout-Login",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "ReviewId",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.SearchController",
+    "Method": "GetAllNutritionist",
+    "RelativePath": "Get-All-Nutritionist",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.SearchController",
+    "Method": "GetAllTrainees",
+    "RelativePath": "Get-All-Trainees",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.SearchController",
+    "Method": "GetAllTrainers",
+    "RelativePath": "Get-All-Trainers",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.SearchController",
+    "Method": "GetUserById",
+    "RelativePath": "Get-By-Id",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.SearchController",
+    "Method": "GetUserByName",
+    "RelativePath": "Get-By-Name",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "name",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.AuthController",
+    "Method": "GetTokenRequest",
+    "RelativePath": "Login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.AuthController",
+    "Method": "RegisterAdminAsync",
+    "RelativePath": "Register-Admin",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.AuthController",
+    "Method": "RegisterNutritionistAsync",
+    "RelativePath": "Register-Nutritionist",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ExperienceYears",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.AuthController",
+    "Method": "RegisterTraineeAsync",
+    "RelativePath": "Register-Trainee",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Level",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Age",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Height",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Weight",
+        "Type": "System.Decimal",
+        "IsRequired": false
+      },
+      {
+        "Name": "Gender",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.AuthController",
+    "Method": "RegisterTrainerAsync",
+    "RelativePath": "Register-Trainer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "FirstName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "LastName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "UserName",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ExperienceYears",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
