@@ -17,5 +17,8 @@ namespace FitCore.IRepositories
         Task<bool> ChangePasswordAsync(string userId, ChangePasswordModel model);
         Task<bool> UpdateUserProfileAsync(string userId, UpdateUserProfileModel model);
         Task<UserProfile> GetDetailes(string userId);
+
+        Task<PasswordActionResult> ForgotPasswordAsync(ForgotPasswordModel model);
+        Task<PasswordActionResult> ResetPasswordAsync(ResetPasswordModel model);
     }
 }

@@ -405,6 +405,22 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Fit.Controllers.AuthController",
+    "Method": "ForgotPasswordAsync",
+    "RelativePath": "Forgot-Password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Fit.Controllers.SearchController",
     "Method": "GetAllNutritionist",
     "RelativePath": "Get-All-Nutritionist",
@@ -660,6 +676,37 @@
       },
       {
         "Name": "Password",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Fit.Controllers.AuthController",
+    "Method": "ResetPasswordAsync",
+    "RelativePath": "Reset-Password",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Email",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "Token",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "NewPassword",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "ConfirmPassword",
         "Type": "System.String",
         "IsRequired": false
       }

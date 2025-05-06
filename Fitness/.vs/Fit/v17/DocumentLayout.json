@@ -1,22 +1,92 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Saleh Mostafa\\OneDrive\\Desktop\\Fitness\\Fitness\\",
+  "WorkspaceRootPath": "C:\\Users\\Hanaa\\Fitness\\Fitness\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5B4FAD68-32D4-45F8-A46F-F8F1B2567D9C}|FitData\\FitData.csproj|c:\\users\\saleh mostafa\\onedrive\\desktop\\fitness\\fitness\\fitdata\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5B4FAD68-32D4-45F8-A46F-F8F1B2567D9C}|FitData\\FitData.csproj|solutionrelative:fitdata\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__ProjectModels/coreshift/True/SqlTable/dbo.MealType.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{848B6588-8B4F-4E5F-9558-477A12EFDFBA}|Fit\\Fit.csproj|c:\\users\\saleh mostafa\\onedrive\\desktop\\fitness\\fitness\\fit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__ProjectModels/coreshift/True/SqlTable/dbo.Levels.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__ProjectModels/coreshift/True/SqlTable/dbo.ExerciseType.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__ProjectModels/coreshift/True/SqlTable/dbo.AspNetUserTokens.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__ProjectModels/coreshift/True/SqlTable/dbo.AspNetUsers.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__ProjectModels/coreshift/True/SqlTable/dbo.AspNetUserRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__ProjectModels/coreshift/True/SqlTable/dbo.AspNetUserLogins.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__ProjectModels/coreshift/True/SqlTable/dbo.AspNetUserClaims.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__ProjectModels/coreshift/True/SqlTable/dbo.AspNetRoles.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__ProjectModels/coreshift/True/SqlTable/dbo.AspNetRoleClaims.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848B6588-8B4F-4E5F-9558-477A12EFDFBA}|Fit\\Fit.csproj|c:\\users\\hanaa\\fitness\\fitness\\fit\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{848B6588-8B4F-4E5F-9558-477A12EFDFBA}|Fit\\Fit.csproj|solutionrelative:fit\\controllers\\authcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5B4FAD68-32D4-45F8-A46F-F8F1B2567D9C}|FitData\\FitData.csproj|c:\\users\\hanaa\\fitness\\fitness\\fitdata\\migrations\\20250506101701_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4FAD68-32D4-45F8-A46F-F8F1B2567D9C}|FitData\\FitData.csproj|solutionrelative:fitdata\\migrations\\20250506101701_password.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848B6588-8B4F-4E5F-9558-477A12EFDFBA}|Fit\\Fit.csproj|c:\\users\\hanaa\\fitness\\fitness\\fit\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{848B6588-8B4F-4E5F-9558-477A12EFDFBA}|Fit\\Fit.csproj|solutionrelative:fit\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848B6588-8B4F-4E5F-9558-477A12EFDFBA}|Fit\\Fit.csproj|c:\\users\\hanaa\\fitness\\fitness\\fit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{848B6588-8B4F-4E5F-9558-477A12EFDFBA}|Fit\\Fit.csproj|solutionrelative:fit\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D1725CF8-DC74-4723-8D79-BF849FF4E34F}|FitCore\\FitCore.csproj|c:\\users\\saleh mostafa\\onedrive\\desktop\\fitness\\fitness\\fitcore\\dto\\authentication\\authmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D1725CF8-DC74-4723-8D79-BF849FF4E34F}|FitCore\\FitCore.csproj|solutionrelative:fitcore\\dto\\authentication\\authmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5B4FAD68-32D4-45F8-A46F-F8F1B2567D9C}|FitData\\FitData.csproj|c:\\users\\hanaa\\fitness\\fitness\\fitdata\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5B4FAD68-32D4-45F8-A46F-F8F1B2567D9C}|FitData\\FitData.csproj|solutionrelative:fitdata\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5B4FAD68-32D4-45F8-A46F-F8F1B2567D9C}|FitData\\FitData.csproj|c:\\users\\saleh mostafa\\onedrive\\desktop\\fitness\\fitness\\fitdata\\repositories\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5B4FAD68-32D4-45F8-A46F-F8F1B2567D9C}|FitData\\FitData.csproj|c:\\users\\hanaa\\fitness\\fitness\\fitdata\\repositories\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5B4FAD68-32D4-45F8-A46F-F8F1B2567D9C}|FitData\\FitData.csproj|solutionrelative:fitdata\\repositories\\authservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1725CF8-DC74-4723-8D79-BF849FF4E34F}|FitCore\\FitCore.csproj|c:\\users\\hanaa\\fitness\\fitness\\fitcore\\irepositories\\iauthservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1725CF8-DC74-4723-8D79-BF849FF4E34F}|FitCore\\FitCore.csproj|solutionrelative:fitcore\\irepositories\\iauthservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1725CF8-DC74-4723-8D79-BF849FF4E34F}|FitCore\\FitCore.csproj|c:\\users\\hanaa\\fitness\\fitness\\fitcore\\dto\\authentication\\passwordactionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1725CF8-DC74-4723-8D79-BF849FF4E34F}|FitCore\\FitCore.csproj|solutionrelative:fitcore\\dto\\authentication\\passwordactionresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1725CF8-DC74-4723-8D79-BF849FF4E34F}|FitCore\\FitCore.csproj|c:\\users\\hanaa\\fitness\\fitness\\fitcore\\dto\\authentication\\resetpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1725CF8-DC74-4723-8D79-BF849FF4E34F}|FitCore\\FitCore.csproj|solutionrelative:fitcore\\dto\\authentication\\resetpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1725CF8-DC74-4723-8D79-BF849FF4E34F}|FitCore\\FitCore.csproj|c:\\users\\hanaa\\fitness\\fitness\\fitcore\\dto\\authentication\\forgotpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1725CF8-DC74-4723-8D79-BF849FF4E34F}|FitCore\\FitCore.csproj|solutionrelative:fitcore\\dto\\authentication\\forgotpasswordmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{848B6588-8B4F-4E5F-9558-477A12EFDFBA}|Fit\\Fit.csproj|c:\\users\\hanaa\\fitness\\fitness\\fit\\controllers\\nutritionistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{848B6588-8B4F-4E5F-9558-477A12EFDFBA}|Fit\\Fit.csproj|solutionrelative:fit\\controllers\\nutritionistcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1725CF8-DC74-4723-8D79-BF849FF4E34F}|FitCore\\FitCore.csproj|c:\\users\\hanaa\\fitness\\fitness\\fitcore\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1725CF8-DC74-4723-8D79-BF849FF4E34F}|FitCore\\FitCore.csproj|solutionrelative:fitcore\\models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1725CF8-DC74-4723-8D79-BF849FF4E34F}|FitCore\\FitCore.csproj|c:\\users\\hanaa\\fitness\\fitness\\fitcore\\dto\\authentication\\adminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1725CF8-DC74-4723-8D79-BF849FF4E34F}|FitCore\\FitCore.csproj|solutionrelative:fitcore\\dto\\authentication\\adminmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1725CF8-DC74-4723-8D79-BF849FF4E34F}|FitCore\\FitCore.csproj|c:\\users\\hanaa\\fitness\\fitness\\fitcore\\dto\\authentication\\authmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1725CF8-DC74-4723-8D79-BF849FF4E34F}|FitCore\\FitCore.csproj|solutionrelative:fitcore\\dto\\authentication\\authmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,56 +96,302 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AuthServices.cs",
-              "DocumentMoniker": "C:\\Users\\Saleh Mostafa\\OneDrive\\Desktop\\Fitness\\Fitness\\FitData\\Repositories\\AuthServices.cs",
-              "RelativeDocumentMoniker": "FitData\\Repositories\\AuthServices.cs",
-              "ToolTip": "C:\\Users\\Saleh Mostafa\\OneDrive\\Desktop\\Fitness\\Fitness\\FitData\\Repositories\\AuthServices.cs",
-              "RelativeToolTip": "FitData\\Repositories\\AuthServices.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAMwCsAAAAnAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T16:09:06.347Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthModel.cs",
-              "DocumentMoniker": "C:\\Users\\Saleh Mostafa\\OneDrive\\Desktop\\Fitness\\Fitness\\FitCore\\Dto\\Authentication\\AuthModel.cs",
-              "RelativeDocumentMoniker": "FitCore\\Dto\\Authentication\\AuthModel.cs",
-              "ToolTip": "C:\\Users\\Saleh Mostafa\\OneDrive\\Desktop\\Fitness\\Fitness\\FitCore\\Dto\\Authentication\\AuthModel.cs",
-              "RelativeToolTip": "FitCore\\Dto\\Authentication\\AuthModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T16:08:53.795Z"
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "dbo.MealType [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/coreshift/True/SqlTable/dbo.MealType.sql",
+              "ToolTip": "dbo.MealType [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-06T10:25:00.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "dbo.Levels [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/coreshift/True/SqlTable/dbo.Levels.sql",
+              "ToolTip": "dbo.Levels [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-06T10:24:51.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dbo.ExerciseType [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/coreshift/True/SqlTable/dbo.ExerciseType.sql",
+              "ToolTip": "dbo.ExerciseType [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-06T10:24:37.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "dbo.AspNetUserTokens [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/coreshift/True/SqlTable/dbo.AspNetUserTokens.sql",
+              "ToolTip": "dbo.AspNetUserTokens [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-06T10:24:30.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "dbo.AspNetUsers [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/coreshift/True/SqlTable/dbo.AspNetUsers.sql",
+              "ToolTip": "dbo.AspNetUsers [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-06T10:23:53.739Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "dbo.AspNetUserRoles [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/coreshift/True/SqlTable/dbo.AspNetUserRoles.sql",
+              "ToolTip": "dbo.AspNetUserRoles [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-06T10:23:37.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "dbo.AspNetUserLogins [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/coreshift/True/SqlTable/dbo.AspNetUserLogins.sql",
+              "ToolTip": "dbo.AspNetUserLogins [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-06T10:23:31.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "dbo.AspNetUserClaims [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/coreshift/True/SqlTable/dbo.AspNetUserClaims.sql",
+              "ToolTip": "dbo.AspNetUserClaims [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-06T10:23:21.137Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "dbo.AspNetRoles [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/coreshift/True/SqlTable/dbo.AspNetRoles.sql",
+              "ToolTip": "dbo.AspNetRoles [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-06T10:22:55.276Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "dbo.AspNetRoleClaims [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__ProjectModels/coreshift/True/SqlTable/dbo.AspNetRoleClaims.sql",
+              "ToolTip": "dbo.AspNetRoleClaims [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-06T10:22:46.454Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250506101701_password.cs",
+              "DocumentMoniker": "C:\\Users\\Hanaa\\Fitness\\Fitness\\FitData\\Migrations\\20250506101701_password.cs",
+              "RelativeDocumentMoniker": "FitData\\Migrations\\20250506101701_password.cs",
+              "ToolTip": "C:\\Users\\Hanaa\\Fitness\\Fitness\\FitData\\Migrations\\20250506101701_password.cs",
+              "RelativeToolTip": "FitData\\Migrations\\20250506101701_password.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAUwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:17:01.788Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Hanaa\\Fitness\\Fitness\\Fit\\appsettings.json",
+              "RelativeDocumentMoniker": "Fit\\appsettings.json",
+              "ToolTip": "C:\\Users\\Hanaa\\Fitness\\Fitness\\Fit\\appsettings.json",
+              "RelativeToolTip": "Fit\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAACUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-06T10:12:32.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "IAuthServices.cs",
+              "DocumentMoniker": "C:\\Users\\Hanaa\\Fitness\\Fitness\\FitCore\\IRepositories\\IAuthServices.cs",
+              "RelativeDocumentMoniker": "FitCore\\IRepositories\\IAuthServices.cs",
+              "ToolTip": "C:\\Users\\Hanaa\\Fitness\\Fitness\\FitCore\\IRepositories\\IAuthServices.cs",
+              "RelativeToolTip": "FitCore\\IRepositories\\IAuthServices.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAjwBYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:06:20.498Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ResetPasswordModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hanaa\\Fitness\\Fitness\\FitCore\\Dto\\Authentication\\ResetPasswordModel.cs",
+              "RelativeDocumentMoniker": "FitCore\\Dto\\Authentication\\ResetPasswordModel.cs",
+              "ToolTip": "C:\\Users\\Hanaa\\Fitness\\Fitness\\FitCore\\Dto\\Authentication\\ResetPasswordModel.cs",
+              "RelativeToolTip": "FitCore\\Dto\\Authentication\\ResetPasswordModel.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAiwAkAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:05:23.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ForgotPasswordModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hanaa\\Fitness\\Fitness\\FitCore\\Dto\\Authentication\\ForgotPasswordModel.cs",
+              "RelativeDocumentMoniker": "FitCore\\Dto\\Authentication\\ForgotPasswordModel.cs",
+              "ToolTip": "C:\\Users\\Hanaa\\Fitness\\Fitness\\FitCore\\Dto\\Authentication\\ForgotPasswordModel.cs",
+              "RelativeToolTip": "FitCore\\Dto\\Authentication\\ForgotPasswordModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:04:22.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AuthController.cs",
+              "DocumentMoniker": "C:\\Users\\Hanaa\\Fitness\\Fitness\\Fit\\Controllers\\AuthController.cs",
+              "RelativeDocumentMoniker": "Fit\\Controllers\\AuthController.cs",
+              "ToolTip": "C:\\Users\\Hanaa\\Fitness\\Fitness\\Fit\\Controllers\\AuthController.cs",
+              "RelativeToolTip": "Fit\\Controllers\\AuthController.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAADwvxwAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:02:23.65Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AuthServices.cs",
+              "DocumentMoniker": "C:\\Users\\Hanaa\\Fitness\\Fitness\\FitData\\Repositories\\AuthServices.cs",
+              "RelativeDocumentMoniker": "FitData\\Repositories\\AuthServices.cs",
+              "ToolTip": "C:\\Users\\Hanaa\\Fitness\\Fitness\\FitData\\Repositories\\AuthServices.cs",
+              "RelativeToolTip": "FitData\\Repositories\\AuthServices.cs",
+              "ViewState": "AgIAADsAAAAAAAAAAAAowBIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T16:09:06.347Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Saleh Mostafa\\OneDrive\\Desktop\\Fitness\\Fitness\\FitData\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Hanaa\\Fitness\\Fitness\\FitData\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "FitData\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Saleh Mostafa\\OneDrive\\Desktop\\Fitness\\Fitness\\FitData\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Hanaa\\Fitness\\Fitness\\FitData\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "FitData\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAlwFIAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwB0AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-16T16:05:53.261Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Saleh Mostafa\\OneDrive\\Desktop\\Fitness\\Fitness\\Fit\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Hanaa\\Fitness\\Fitness\\Fit\\Program.cs",
               "RelativeDocumentMoniker": "Fit\\Program.cs",
-              "ToolTip": "C:\\Users\\Saleh Mostafa\\OneDrive\\Desktop\\Fitness\\Fitness\\Fit\\Program.cs",
+              "ToolTip": "C:\\Users\\Hanaa\\Fitness\\Fitness\\Fit\\Program.cs",
               "RelativeToolTip": "Fit\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAABoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-16T15:52:11.828Z"
+              "WhenOpened": "2025-04-16T15:52:11.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "PasswordActionResult.cs",
+              "DocumentMoniker": "C:\\Users\\Hanaa\\Fitness\\Fitness\\FitCore\\Dto\\Authentication\\PasswordActionResult.cs",
+              "RelativeDocumentMoniker": "FitCore\\Dto\\Authentication\\PasswordActionResult.cs",
+              "ToolTip": "C:\\Users\\Hanaa\\Fitness\\Fitness\\FitCore\\Dto\\Authentication\\PasswordActionResult.cs",
+              "RelativeToolTip": "FitCore\\Dto\\Authentication\\PasswordActionResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-06T10:07:07.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "NutritionistController.cs",
+              "DocumentMoniker": "C:\\Users\\Hanaa\\Fitness\\Fitness\\Fit\\Controllers\\NutritionistController.cs",
+              "RelativeDocumentMoniker": "Fit\\Controllers\\NutritionistController.cs",
+              "ToolTip": "C:\\Users\\Hanaa\\Fitness\\Fitness\\Fit\\Controllers\\NutritionistController.cs",
+              "RelativeToolTip": "Fit\\Controllers\\NutritionistController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAA+wC4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-23T14:30:28.29Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "AdminModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hanaa\\Fitness\\Fitness\\FitCore\\Dto\\Authentication\\AdminModel.cs",
+              "RelativeDocumentMoniker": "FitCore\\Dto\\Authentication\\AdminModel.cs",
+              "ToolTip": "C:\\Users\\Hanaa\\Fitness\\Fitness\\FitCore\\Dto\\Authentication\\AdminModel.cs",
+              "RelativeToolTip": "FitCore\\Dto\\Authentication\\AdminModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T20:42:39.115Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\Hanaa\\Fitness\\Fitness\\FitCore\\Models\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "FitCore\\Models\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\Hanaa\\Fitness\\Fitness\\FitCore\\Models\\ApplicationUser.cs",
+              "RelativeToolTip": "FitCore\\Models\\ApplicationUser.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAywAoAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T20:41:02.08Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "AuthModel.cs",
+              "DocumentMoniker": "C:\\Users\\Hanaa\\Fitness\\Fitness\\FitCore\\Dto\\Authentication\\AuthModel.cs",
+              "RelativeDocumentMoniker": "FitCore\\Dto\\Authentication\\AuthModel.cs",
+              "ToolTip": "C:\\Users\\Hanaa\\Fitness\\Fitness\\FitCore\\Dto\\Authentication\\AuthModel.cs",
+              "RelativeToolTip": "FitCore\\Dto\\Authentication\\AuthModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-16T16:08:53.795Z"
             }
           ]
         }

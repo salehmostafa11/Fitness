@@ -216,7 +216,14 @@ namespace FitData.Repositories
             return result.Succeeded;
         }
 
+        public Task<PasswordActionResult> ForgotPasswordAsync(ForgotPasswordModel model)
+        {
+            throw new NotImplementedException();
+        }
 
-
+        public Task<PasswordActionResult> ResetPasswordAsync(ResetPasswordModel model)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

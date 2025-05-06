@@ -110,5 +110,38 @@ namespace Fit.Controllers
             });
         }
 
+        [HttpPost("Forgot-Password")]
+        public async Task<IActionResult> ForgotPasswordAsync([FromForm] ForgotPasswordModel model)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var result = await _unitOfWork.AuthServices.ForgotPasswordAsync(model);
+
+            if (!result.Success)
+                return BadRequest(result.Message);
+
+            return Ok(new { message = result.Message });
+        }
+
+
+        [HttpPost("Reset-Password")]
+        public async Task<IActionResult> ResetPasswordAsync([FromForm] ResetPasswordModel model)
+        {
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            var result = await _unitOfWork.AuthServices.ResetPasswordAsync(model);
+
+            if (!result.Success)
+                return BadRequest(result.Message);
+
+            return Ok(new { message = result.Message });
+        }
+
+
+
+
+
     }
 }

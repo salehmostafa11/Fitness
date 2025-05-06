@@ -11,3 +11,16 @@ C:\Users\Saleh Mostafa\OneDrive\Desktop\Fitness\Fitness\FitCore\obj\Debug\net8.0
 C:\Users\Saleh Mostafa\OneDrive\Desktop\Fitness\Fitness\FitCore\obj\Debug\net8.0\refint\FitCore.dll
 C:\Users\Saleh Mostafa\OneDrive\Desktop\Fitness\Fitness\FitCore\obj\Debug\net8.0\FitCore.pdb
 C:\Users\Saleh Mostafa\OneDrive\Desktop\Fitness\Fitness\FitCore\obj\Debug\net8.0\ref\FitCore.dll
+C:\Users\Hanaa\Fitness\Fitness\FitCore\bin\Debug\net8.0\FitCore.deps.json
+C:\Users\Hanaa\Fitness\Fitness\FitCore\bin\Debug\net8.0\FitCore.dll
+C:\Users\Hanaa\Fitness\Fitness\FitCore\bin\Debug\net8.0\FitCore.pdb
+C:\Users\Hanaa\Fitness\Fitness\FitCore\obj\Debug\net8.0\FitCore.csproj.AssemblyReference.cache
+C:\Users\Hanaa\Fitness\Fitness\FitCore\obj\Debug\net8.0\FitCore.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hanaa\Fitness\Fitness\FitCore\obj\Debug\net8.0\FitCore.AssemblyInfoInputs.cache
+C:\Users\Hanaa\Fitness\Fitness\FitCore\obj\Debug\net8.0\FitCore.AssemblyInfo.cs
+C:\Users\Hanaa\Fitness\Fitness\FitCore\obj\Debug\net8.0\FitCore.csproj.CoreCompileInputs.cache
+C:\Users\Hanaa\Fitness\Fitness\FitCore\obj\Debug\net8.0\FitCore.sourcelink.json
+C:\Users\Hanaa\Fitness\Fitness\FitCore\obj\Debug\net8.0\FitCore.dll
+C:\Users\Hanaa\Fitness\Fitness\FitCore\obj\Debug\net8.0\refint\FitCore.dll
+C:\Users\Hanaa\Fitness\Fitness\FitCore\obj\Debug\net8.0\FitCore.pdb
+C:\Users\Hanaa\Fitness\Fitness\FitCore\obj\Debug\net8.0\ref\FitCore.dll
