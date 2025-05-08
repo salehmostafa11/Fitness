@@ -6,7 +6,7 @@ using Moq;
 
 namespace Fit.Tests
 {
-    public class SearchController_GetAllTrainees_Tests
+    public class SearchControllerTests
     {
 
         // GetAllTrainess Tests 2 scenarios
