@@ -28,7 +28,7 @@ namespace Fit.Controllers
             var result = await _unitOfWork.Search.GetAllTrainers();
 
             if (result == null || !result.Any())
-                return NotFound("No Trainees Found");
+                return NotFound("No Trainers Found");
 
 
             return Ok(result);
@@ -39,7 +39,7 @@ namespace Fit.Controllers
             var result = await _unitOfWork.Search.GetAllNutritionist();
 
             if (result == null || !result.Any())
-                return NotFound("No Trainees Found");
+                return NotFound("No Nutritionists Found");
 
 
             return Ok(result);
@@ -53,7 +53,7 @@ namespace Fit.Controllers
 
             var result = await _unitOfWork.Search.SearchUserByName(name);
 
-            if (result is null)
+            if (result is null || !result.Any())
                 return NotFound($"User not found with name {name}");
 
             return Ok(result);
